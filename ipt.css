@@ -2,20 +2,80 @@
 @import 'default';
 
 section {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+  font-family: 'Calibri', sans-serif;
+  font-size: 20pt;
+  background-image: url(imagens/background_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: black;
+  position: absolute;
+  font-size: 24pt;
+  top: 50px;
+}
+
+section > h2 {
+  color: black;
+  font-size: 20pt;
+  margin-left: 30px
+}
+
+section::after {
+  left: 50%;
 }
 
 section.first {
   /* bottom two-coloured bar in base64 svg */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
-  background-image: url(background_ipt.png);
+  background-image: url(imagens/background_title.png);
   background-repeat: no-repeat;
-  background-size:     cover;
+  background-size: cover;
+  text-align: right;
 }
 
-section.first>h1 {
+section.first > h1 {
+  color: rgb(3, 3, 61);
+  width: 750px;
+  font-size: 40pt;
+  position: absolute;
+  top: 250px;
+  margin-left: 400px;
+}
+
+section.first > h2 {
   text-transform: uppercase;
+  color: rgb(3, 3, 61);
+  width: 750px;
+  font-size: 28pt;
   position: absolute;
   top: 300px;
-  left: 600px;
+  margin-left: 400px;
+}
+
+section.first > h3 {
+  color: rgb(3, 3, 61);
+  width: 750px;
+  font-size: 24pt;
+  position: absolute;
+  top: 460px;
+  margin-left: 400px;
+}
+
+
+section.last {
+  /* bottom two-coloured bar in base64 svg */
+  background-image: url(imagens/background_closing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+
+section.last > h1 {
+  color: white;
+  font-size: 40pt;
+  text-transform: unset;
+  top: 150px;
 }
