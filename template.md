@@ -38,7 +38,7 @@ paginate: true
 - Clique em **Arquivo > Abrir pasta** e abra uma pasta com o template do Marp.
 
 - Clique em **Arquivo > Novo arquivo de texto** e crie um arquivo com extensão .md.
-    - **exemplo.md**
+    - `exemplo.md`
 
 ---
 # Visualizando a apresentação
