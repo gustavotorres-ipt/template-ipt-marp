@@ -114,7 +114,6 @@ paginate: true
 - Tabelas em geral podem ser geradas no site:
     - https://www.tablesgenerator.com/
 
-
 ---
 # Código
 
@@ -126,18 +125,50 @@ if linguagem == "python":
     print("Existe suport para Python")
 ```
 
----
+-----------------------------------------------------
+# Separando em colunas
+
+<!-- Para que o slide contenha múltiplas colunas,
+adicione uma <div class="container"> </div> 
+As colunas serão criadas entre as tags <div> e </div>-->
+<div class="container"> 
+
+<!-- O <div class="col"> contém o conteúdo de uma
+coluna. As colunas dividem espaço igualmente no slide  -->
+<!-- Primeira coluna -->
+<div class="col">
+
+- Aqui fica o conteúdo da primeira coluna
+![](http://reciclos.ipt.br/img/ipt.png)
+
+</div>
+
+<!-- Segunda coluna -->
+<div class="col">
+
+- Aqui fica o conteúdo da segunda coluna
+<center> 
+
+| **Coluna 1** | **Coluna 2** | **Coluna 3** | **Coluna 4** | 
+|:------------:|:------------:|:------------:|:------------:|
+|       1      |       2      |       3      |       4      | 
+|       5      |       6      |       7      |       8      | 
+|       9      |      10      |      11      |      12      | 
+</center>
+
+</div>
+
+</div>
+
+- Para que múltiplas colunas funcionem é necessário ativar opção **Allow insecure content**.
+
+
+-----------------------------------------------------
 # Gerando o pdf
 
 - Clique no símbolo do Marp no menu superior e escolha a opção **Export Slide Deck**.
 
 ![width:800px](./imagens/exportar.png)
-
----
-# O que falta
-
-- Slides com múltiplas linhas / colunas.
-
 
 ---
 # Esse é o slide final. Obrigado!

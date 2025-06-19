@@ -1,16 +1,6 @@
 /* @theme ipt */
 @import 'default';
 
-section {
-  font-family: 'Calibri', sans-serif;
-  font-size: 20pt;
-  background-image: url(imagens/background_main.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-  padding-top: 11%;
-}
-
 img {
   display: block;
   margin: auto;
@@ -28,6 +18,24 @@ h2 {
   color: black;
   font-size: 20pt;
   margin-left: 30px
+}
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+section {
+  font-family: 'Calibri', sans-serif;
+  font-size: 20pt;
+  background-image: url(imagens/background_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding-top: 11%;
 }
 
 section.first {
